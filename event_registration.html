@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <h2>Event Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="college">College/Organization:</label><br>
+        <input type="text" id="college" name="college"><br><br>
+
+        <label for="event">Select Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="">--Select--</option>
+            <option value="coding">Coding Contest</option>
+            <option value="quiz">Technical Quiz</option>
+            <option value="paper">Paper Presentation</option>
+            <option value="hackathon">Hackathon</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label>Events Interested In:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="Coding">
+        <label for="coding">Coding Contest</label><br>
+
+        <input type="checkbox" id="quiz1" name="interest" value="Quiz">
+        <label for="quiz1">Technical Quiz</label><br>
+
+        <input type="checkbox" id="paper1" name="interest" value="Paper Presentation">
+        <label for="paper1">Paper Presentation</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
